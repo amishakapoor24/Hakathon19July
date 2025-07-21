@@ -1,0 +1,66 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e2f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('escapeRoom.png');
+}
+
+#gameContainer {
+  background: #c6c6e3;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(253, 164, 116, 0.6);
+
+}
+
+input[type="text"], button {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 25px;
+  border-radius: 8px;
+  border: none;
+}
+
+input[type="text"] {
+  width: 80%;
+  font-size: 20px;
+  background-color: #eee9e8;
+}
+
+button {
+  background-color: #c55d57;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin:20px;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #743535;
+}
+
+#resultMessage {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  display: none;
+  background-color: #810f22;
+}
+
+.countdown {
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: rgb(223, 158, 173);
+  font-size: 20px;
+  padding: 10px;
+}
