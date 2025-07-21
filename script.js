@@ -160,6 +160,7 @@ function mathPuzzle() {
   let score = 0;
 
   const questionText = document.createElement("p");
+  questionText.style.fontSize='40px';
   const input = document.createElement("input");
   input.type = "text";
   input.placeholder = "Answer...";
